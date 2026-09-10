@@ -21,3 +21,7 @@ while True:
             print("Error: Negative stock quantities are not allowed.")
             failed_entries += 1
             continue
+
+        else:
+            # Step 3: Accept the value as an integer
+            quantity = int(user_input)
