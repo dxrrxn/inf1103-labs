@@ -26,6 +26,7 @@ def main():
             inventory += quantity
             total_units_processed += quantity
 
+
             if inventory > 500:
                 print(f"OVERSTOCK ALERT! Inventory has reached {inventory} units, "
                       f"exceeding the 500-unit limit.")
@@ -33,4 +34,11 @@ def main():
             else:
                 print(f"Stock added. Current inventory: {inventory}")
 
+    print("\n----- Inventory Audit Report -----")
+    print(f"Total Units Processed: {total_units_processed}")
+    print(f"Number of Failed/Rejected Entries: {failed_entries}")
+ 
+ 
+if __name__ == "__main__":
+    main()
  
