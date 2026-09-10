@@ -23,5 +23,7 @@ while True:
             continue
 
         else:
-            # Step 3: Accept the value as an integer
             quantity = int(user_input)
+
+            inventory += quantity
+            total_units_processed += quantity
