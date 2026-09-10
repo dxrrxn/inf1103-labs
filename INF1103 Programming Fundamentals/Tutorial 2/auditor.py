@@ -16,4 +16,8 @@ while True:
             print(f"Error: '{user_input}' is not a valid number. Please try again.")
             failed_entries += 1
             continue
-        
+        elif int(user_input) < 0:
+
+            print("Error: Negative stock quantities are not allowed.")
+            failed_entries += 1
+            continue
