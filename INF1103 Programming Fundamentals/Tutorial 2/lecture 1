@@ -1,0 +1,14 @@
+light = "Green"
+
+for second in range(10):
+    if light == "Green":
+        print("Go")
+        light = "Yellow"
+    elif light == "Yellow":
+        print("Slow Down")
+        light = "Red"
+    elif light == "Red":
+        print("Stop")
+        light = "Green"
+
+print("Simulation ended")
