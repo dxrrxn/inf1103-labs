@@ -1,0 +1,29 @@
+commit 710a93f578fae9f22dc6d6443e4c1e1f517181ef
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Fri Sep 4 16:36:53 2026 +0800
+
+    If age >40 and category = fun, print something funny
+
+commit 498b8cb7c967b75f69917ec34b9d561086a24124
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Fri Sep 4 16:34:06 2026 +0800
+
+    Interactive profile creator
+
+commit 6158ac5ec87720df9d37db341c035f34caf398af
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Fri Sep 4 16:31:17 2026 +0800
+
+    Adding followers by day
+
+commit 178e2365d112aef016b05efdc1f5756c9eb5239d
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Fri Sep 4 16:29:45 2026 +0800
+
+    Adding Username Bio and Followers
+
+commit aa7aa64f2e22a8a27e4815ab0bba28ecad78a4c2
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Fri Sep 4 16:26:25 2026 +0800
+
+    First Post
