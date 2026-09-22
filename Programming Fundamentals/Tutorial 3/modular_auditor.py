@@ -25,6 +25,15 @@ def calculate_tax(amount):
     """Return the tax (10%) owed on this specific delivery."""
     return amount * TAX_RATE
 
+def generate_report(total_units, failed_attempts, deliveries_processed=0, total_tax=0.0):
+    """Print the final audit summary."""
+    print("\n----- Inventory Audit Report -----")
+    print(f"Total Deliveries Processed: {deliveries_processed}")
+    print(f"Total Units Processed: {total_units}")
+    print(f"Total Tax Calculated: {total_tax:.2f}")
+    print(f"Number of Failed/Rejected Entries: {failed_attempts}")
+    print("----------------------------------")
+
 def main():
     inventory = 0
     total_units_processed = 0
