@@ -21,6 +21,9 @@ def process_delivery(current_total, new_value):
     """Add the delivery to the running total and return the new total."""
     return current_total + new_value
 
+def calculate_tax(amount):
+    """Return the tax (10%) owed on this specific delivery."""
+    return amount * TAX_RATE
 
 def main():
     inventory = 0
