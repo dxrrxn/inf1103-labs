@@ -1,0 +1,77 @@
+commit d9dfe330571c9607c809487eb376f4f7108c4927
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 22 17:05:44 2026 +0800
+
+    report
+
+commit 38f8adbe943df298077332a57555522e21d57077
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 22 17:03:44 2026 +0800
+
+    calculate tax function
+
+commit 3c481f3d4cfa56c6c3343071f8069732e652eec4
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 22 17:02:24 2026 +0800
+
+    Add process_delivery() to update running total
+
+commit d41dae4eb1b41056f3d251e97e8852fff06d3720
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 22 16:44:08 2026 +0800
+
+    get valid input
+
+commit bca38e9405b7dc89563caa52fbd3bc2842c66ea0
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:48:17 2026 +0800
+
+    Report
+
+commit 71f023d7af391d7d7c0954493b5137b645da1e5e
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:47:27 2026 +0800
+
+    Overstock Alert
+
+commit 2ee336d8e9a81f7aa548d6e9dbe479ad54593f96
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:44:50 2026 +0800
+
+    Managing state of Inventory
+
+commit bf14bc35269e8002278304bbe397a7b2f7baf525
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:44:13 2026 +0800
+
+    Accepting value as Integer
+
+commit 293d5e94803f6f7a78d74d1bd5851453eab35f29
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:42:48 2026 +0800
+
+    Reject Negative Numbers
+
+commit 7c7e5d5ccad84235aff7cf5acc4d986dd32f7f62
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:40:55 2026 +0800
+
+    Reject Non Numeric Inputs
+
+commit 7d172c9e510aadc1167fc23d4d949eee565299c4
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:23:55 2026 +0800
+
+    Loop Quantity Until Quit
+
+commit 305829d1dd355916800ebb2ccd9bcb5e4ab3cca0
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:19:40 2026 +0800
+
+    Initialise Inventory
+
+commit 144bc5ee6208a2b712b39fd3183bbf39e4bba3f9
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:17:49 2026 +0800
+
+    Fresh start

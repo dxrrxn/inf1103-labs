@@ -75,7 +75,7 @@ def generate_report(total_units, failed_attempts, deliveries_processed=0,
     print(f"Number of Failed/Rejected Entries: {failed_attempts}")
     print(f"Transaction History: {history}")
     print("----------------------------------")
-    
+
 def main():
     # 1. Persistence: load whatever was saved last time
     inventory, history = load_inventory()
@@ -110,7 +110,7 @@ def main():
         print(f"Stock added. Current inventory: {inventory}")
 
     # 4. Write-back, then report
-    save_inventory(inventory, history)
+    save_inventory(inventory, history)#
     generate_report(inventory, failed_entries, deliveries_processed, total_tax, history)
 
 if __name__ == "__main__":
