@@ -1,4 +1,6 @@
-from product import Product
+from physical_product import PhysicalProduct
+from digital_product import DigitalProduct
+from can_be_shipped import CanBeShipped
 from inventory import Inventory, LINE
 from file_handler import load_inventory, save_inventory, INVENTORY_FILE
 
@@ -13,15 +15,24 @@ def read_non_empty(prompt):
         print("Input cannot be empty.")
 
 
-def read_price(prompt):
+def read_number(prompt):
+    """Keep asking until the user types a non-negative number (price, weight, size)."""
     while True:
         try:
             value = float(input(prompt))
             if value >= 0:
                 return value
-            print("Price cannot be negative.")
+            print("Value cannot be negative.")
         except ValueError:
             print("Please enter a valid number.")
+
+
+def read_product_type():
+    while True:
+        choice = input("Product type (1 = Physical, 2 = Digital): ").strip()
+        if choice in ("1", "2"):
+            return choice
+        print("Please enter 1 or 2.")
 
 
 def read_stock(prompt):
@@ -43,11 +54,19 @@ def add_product(inventory):
     if inventory.search_product(product_id) is not None:
         print("A product with this ID already exists.")
         return
+    product_type = read_product_type()
     name = read_non_empty("Product Name: ")
-    price = read_price("Price: ")
+    price = read_number("Price: ")
     stock = read_stock("Stock Quantity: ")
 
-    inventory.add_product(Product(product_id, name, price, stock))
+    if product_type == "1":
+        weight = read_number("Weight (kg): ")
+        product = PhysicalProduct(product_id, name, price, stock, weight)
+    else:
+        download_size = read_number("Download Size (MB): ")
+        product = DigitalProduct(product_id, name, price, stock, download_size)
+
+    inventory.add_product(product)
     print("Product added successfully!")
 
 
@@ -73,6 +92,9 @@ def search_product(inventory):
     print("Product Found")
     print(LINE)
     product.display_information()
+    print(product.get_fulfilment_info())
+    if isinstance(product, CanBeShipped):
+        print(f"Shipping Cost: ${product.calculate_shipping_cost():.2f}")
     print(LINE)
 
 
