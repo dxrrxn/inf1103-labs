@@ -1,0 +1,41 @@
+commit 4e2bfd83a25f02f82cbcb1651e24b88cfad4e1b7
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:21:43 2026 +0800
+
+    json file
+
+commit 482ebb00ac4f1f0c1048a511cb7ed15d8d158855
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:21:31 2026 +0800
+
+    Refactored inventory system using OOP
+
+commit a8057a3f98bf790a8c14731dfc3ba8f65dcfceb7
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:19:55 2026 +0800
+
+    Created file handler for loading and saving inventory
+
+commit 0243c3d0c65f645daf97598f16379fa660a2b065
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:19:12 2026 +0800
+
+    Remove old Tutorial 6 folder and add .gitignore
+
+commit 3de0a953154c190b1791081484edd8d223bf8d48
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:18:35 2026 +0800
+
+    created inventory class
+
+commit 7a12e148cd3196a47da9f1e680d59d1291540997
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:15:37 2026 +0800
+
+    creating product class
+
+commit 2ce2f8524b4b667e22629e3781b85140a3f8a646
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:06:45 2026 +0800
+
+    Created Product class
