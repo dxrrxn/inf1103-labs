@@ -141,3 +141,80 @@ def search_product(inventory: Inventory) -> None:
     product.display_information()
     print(product.get_fulfilment_info())
     if isinstance(product, CanBeShipped):
+        print(f"Shipping Cost: ${product.calculate_shipping_cost():.2f}")
+    product.get_supplier().display_information()
+    print(LINE)
+
+
+def create_order(inventory: Inventory) -> None:
+    print("Create Order")
+    order = Order(read_non_empty("Order ID: "))
+    while True:
+        product_id = input("Product ID to add (leave blank to finish): ").strip()
+        if not product_id:
+            break
+        product = inventory.find_product(product_id)
+        if product is None:
+            print("Product not found.")
+            continue
+        order.add_order_line(product, read_quantity("Quantity: "))
+        print(f"Added {product.get_name()}.")
+    print(LINE)
+    order.display_order()
+    print(LINE)
+
+
+def print_menu() -> None:
+    print("----------- MENU -----------")
+    print("1. Display All Products")
+    print("2. Add Product")
+    print("3. Remove Product")
+    print("4. Update Stock")
+    print("5. Search Product")
+    print("6. Create Order")
+    print("7. Save Inventory")
+    print("8. Exit")
+    print("----------------------------")
+
+
+def run_menu(inventory: Inventory) -> None:
+    while True:
+        print_menu()
+        option = input("Enter option: ").strip()
+        if option == "1":
+            inventory.display_all_products()
+        elif option == "2":
+            add_product(inventory)
+        elif option == "3":
+            remove_product(inventory)
+        elif option == "4":
+            update_stock(inventory)
+        elif option == "5":
+            search_product(inventory)
+        elif option == "6":
+            create_order(inventory)
+        elif option == "7":
+            print("Saving inventory...")
+            save_inventory(inventory)
+            print(f"Inventory saved successfully to {INVENTORY_FILE}.")
+        elif option == "8":
+            print("Saving inventory before exit...")
+            save_inventory(inventory)
+            print("Inventory saved successfully.")
+            print("Program exited.")
+            break
+        else:
+            print("Invalid option. Please enter a number from 1 to 8.")
+
+
+def main() -> None:
+    print("=" * 40)
+    print("INVENTORY MANAGEMENT SYSTEM")
+    print("=" * 40)
+    inventory = Inventory()
+    load_inventory(inventory)
+    run_menu(inventory)
+
+
+if __name__ == "__main__":
+    main()
