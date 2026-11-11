@@ -1,0 +1,257 @@
+commit c711ee26bc69a572a4e6f754358037252c8fa7b7
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 12:12:50 2026 +0800
+
+    adding uml class diagram and inventory data
+
+commit 7ad148737a36bc32ce81ed9b052c450f0b1c7c69
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 12:05:56 2026 +0800
+
+    Add tests for relationships, LSP and polymorphism
+
+commit 9091d6af5e1d2c7ff0039d257d8bc35df7acd693
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 12:04:58 2026 +0800
+
+    cleaning up
+
+commit d1b32f3a8a4d4fbaa7ed850ebb18372ac4c6d0ee
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 12:03:42 2026 +0800
+
+    Add supplier, remove product and create order to menu
+
+commit 85c3f3e7a107227c86a597f1e0f82708d4839faf
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 12:03:17 2026 +0800
+
+    Add supplier, remove product and create order to menu
+
+commit e54fb41f7d8cda861e1816ac1f97b38cb896605f
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 12:01:15 2026 +0800
+
+    Add Order and OrderLine with composition
+
+commit 13a37bff2b0c874ca52268cc3744cfb8f546de39
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 11:59:55 2026 +0800
+
+    Add remove and find to Inventory with type hints
+
+commit 535f3d0bd03b2744d41ca2a8846db1d34f5b69b6
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 11:56:32 2026 +0800
+
+    Associate products with a Supplier and add type hints
+
+commit 89455f6f7209487ce469fe65a38d42b98be86d7b
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 11:54:54 2026 +0800
+
+    adding supplier class
+
+commit bfc7a561d49f42042be2d9fa1629f44d320c7a93
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Wed Nov 11 11:53:47 2026 +0800
+
+    Start week 10 from week 9 codes
+
+commit 05ccf0af36bdf72603572317630fd8a352cfdde0
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Mon Nov 2 16:48:54 2026 +0800
+
+    Add UML diagram, inventory data and update .gitignore
+
+commit eb175794625f26ebcd51071909168bf554fdc7ce
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Mon Nov 2 16:47:00 2026 +0800
+
+    Support physical and digital products in menu
+
+commit 65a22f12142ea330d12254e6c24ba7baf7638fc5
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Mon Nov 2 16:46:01 2026 +0800
+
+    Save and load product types in JSON
+
+commit f1d6541fe226e6543e32c24730d6b90ef815ebc8
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Mon Nov 2 16:45:20 2026 +0800
+
+    Add Digital Product subclass
+
+commit 5259d4ab45790f2c2fc7728a54309f2d871789ef
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Mon Nov 2 16:44:28 2026 +0800
+
+    Add PhysicalProduct subclass with shipping
+
+commit 1cac945adbe3084d7dae6b06239a342268f520a1
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Mon Nov 2 16:43:11 2026 +0800
+
+    adding can be shipped class
+
+commit feacef2e8d3e41cfd01dbb81f054d13b3a079679
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Mon Nov 2 16:42:16 2026 +0800
+
+    make product a abstract class
+
+commit 8ae081e327d2461edb57d72f99e1edc5137d5ef7
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Mon Nov 2 16:39:26 2026 +0800
+
+    Start Lab 7 from Lab 6 code
+
+commit 4e2bfd83a25f02f82cbcb1651e24b88cfad4e1b7
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:21:43 2026 +0800
+
+    json file
+
+commit 482ebb00ac4f1f0c1048a511cb7ed15d8d158855
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:21:31 2026 +0800
+
+    Refactored inventory system using OOP
+
+commit a8057a3f98bf790a8c14731dfc3ba8f65dcfceb7
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:19:55 2026 +0800
+
+    Created file handler for loading and saving inventory
+
+commit 0243c3d0c65f645daf97598f16379fa660a2b065
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:19:12 2026 +0800
+
+    Remove old Tutorial 6 folder and add .gitignore
+
+commit 3de0a953154c190b1791081484edd8d223bf8d48
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:18:35 2026 +0800
+
+    created inventory class
+
+commit 7a12e148cd3196a47da9f1e680d59d1291540997
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:15:37 2026 +0800
+
+    creating product class
+
+commit c71766d611cef13a60d8ae0bfc752317ae3a5413
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:09:12 2026 +0800
+
+    Fix Tutorial 5 folder
+
+commit 2ce2f8524b4b667e22629e3781b85140a3f8a646
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 15:06:45 2026 +0800
+
+    Created Product class
+
+commit d71003f9578b1a8f909ec08cd27a13d25928d84b
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Sat Oct 24 14:55:46 2026 +0800
+
+    cleaning up
+
+commit 5ff2bddc6ac2bc3a402161d8c25afa0497336923
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Oct 8 15:49:23 2026 +0800
+
+    adding inventory manager file
+
+commit 52822305e3c8581bbfde5ed215a915debab3d70c
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 29 12:37:52 2026 +0800
+
+    Add load_inventory() with missing-file handling
+
+commit 9c0da82b7f9efc7e7c5d5eb5a7557996cff63047
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 29 12:29:16 2026 +0800
+
+    Week 4: copy modular_auditor.py to persistent_auditor.py as baseline
+
+commit d9dfe330571c9607c809487eb376f4f7108c4927
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 22 17:05:44 2026 +0800
+
+    report
+
+commit 38f8adbe943df298077332a57555522e21d57077
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 22 17:03:44 2026 +0800
+
+    calculate tax function
+
+commit 3c481f3d4cfa56c6c3343071f8069732e652eec4
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 22 17:02:24 2026 +0800
+
+    Add process_delivery() to update running total
+
+commit d41dae4eb1b41056f3d251e97e8852fff06d3720
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Tue Sep 22 16:44:08 2026 +0800
+
+    get valid input
+
+commit bca38e9405b7dc89563caa52fbd3bc2842c66ea0
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:48:17 2026 +0800
+
+    Report
+
+commit 71f023d7af391d7d7c0954493b5137b645da1e5e
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:47:27 2026 +0800
+
+    Overstock Alert
+
+commit 2ee336d8e9a81f7aa548d6e9dbe479ad54593f96
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:44:50 2026 +0800
+
+    Managing state of Inventory
+
+commit bf14bc35269e8002278304bbe397a7b2f7baf525
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:44:13 2026 +0800
+
+    Accepting value as Integer
+
+commit 293d5e94803f6f7a78d74d1bd5851453eab35f29
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:42:48 2026 +0800
+
+    Reject Negative Numbers
+
+commit 7c7e5d5ccad84235aff7cf5acc4d986dd32f7f62
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:40:55 2026 +0800
+
+    Reject Non Numeric Inputs
+
+commit 7d172c9e510aadc1167fc23d4d949eee565299c4
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:23:55 2026 +0800
+
+    Loop Quantity Until Quit
+
+commit 305829d1dd355916800ebb2ccd9bcb5e4ab3cca0
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:19:40 2026 +0800
+
+    Initialise Inventory
+
+commit 144bc5ee6208a2b712b39fd3183bbf39e4bba3f9
+Author: Renjie Ng <darrenng2003@gmail.com>
+Date:   Thu Sep 10 13:17:49 2026 +0800
+
+    Fresh start
